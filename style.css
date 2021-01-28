@@ -1,0 +1,77 @@
+body{
+font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: #333333;
+  margin: 53px 147px 0 141px;
+}
+.profile-1 {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-template-rows: repeat(4, auto);
+ grid-template-areas:
+ "photo photo photo"
+ "message message message"
+ "place place place"
+ "room bedroom floors";
+ grid-gap: 15px;
+ padding: 15px;
+}
+
+.photo{
+grid-area: photo;
+}
+.message{
+grid-area: message;
+}
+.place{
+grid-area: place;
+}
+.room{
+grid-area: room;
+}
+.bedroom{
+grid-area: bedroom;
+}
+.floors{
+grid-area: floors;
+}
+.profile-1{
+width: 327px;
+height: 414px;
+left: 30px;
+top: 332px;
+}
+
+
+
+div.doma {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+    display: grid;
+    grid-template-columns:repeat(4, auto);
+}
+
+
+
+div.spisok {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+
+}
+.zagol{
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 48px;
+
+text-align: center;
+
+color: #333333;
+}
+.place {
+	color: #877e7e;
+	border-bottom: solid 1px #877e7e;
+
+}
